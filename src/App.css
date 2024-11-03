@@ -1,0 +1,59 @@
+.App {
+  margin: 0;
+  padding: 0;
+  background-color: #EED0F4;
+  min-height: 100vh;
+}
+
+.montador_app {
+  padding: 2rem;
+}
+
+.montador_app .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.montador_app .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.montador_app button {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.montador_app button:hover {
+  background-color: #ff9aa2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.montador_app img {
+  border-radius: 50%;
+}
+
+
+
+/* .table-container {
+  position: relative;
+  overflow-x: auto;
+}
+
+.table-responsive {
+  overflow-x: visible;
+}
+
+.fixed-column {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: #fff; 
+}
+
+.scrollable-columns {
+  display: inline-flex;
+}
+
+th.fixed-column,
+td.fixed-column {
+  box-shadow: 2px 0 5px -2px rgba(0,0,0,0.2);
+} */
